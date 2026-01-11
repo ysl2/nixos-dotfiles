@@ -271,6 +271,7 @@ layout {
 // See the binds section below for more spawn examples.
 
 spawn-at-startup "dbus-update-activation-environment" "--systemd" "--all"
+spawn-at-startup "xwayland-satellite"
 spawn-at-startup "noctalia-shell"
 spawn-at-startup "fcitx5" "-d" "-r"
 
